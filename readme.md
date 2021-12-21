@@ -16,18 +16,18 @@
   <p align="right">(<a href="#top">back to top</a>)</p>
 
   ## Installation Instructions
-  <ul><li>Clone this repository 'https://github.com/judo2000/readme_generator.git'</li><li>Change to the project root directory</li><li>Run the command `npm install`</li></ul>
-  
+  <ul><li>Clone this repository ```https://github.com/judo2000/readme_generator.git```</li><li>Change to the project root directory</li><li>Run the command ```npm install```</li></ul>
+
   <p align="right">(<a href="#top">back to top</a>)</p>
   
   ## Usage
 
-  From the command prompt run the command ```npm index``` and answer each question and select the appropriate license.
+  From the command prompt run the command ```node index``` and answer each question and select the appropriate license.
 
   <p align="right">(<a href="#top">back to top</a>)</p>
 
   ## License
-  [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+  ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
     
   ## Questions
 
