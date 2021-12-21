@@ -1,4 +1,4 @@
-const readmeBuilder = (response) => {
+const readme = (response) => {
     return `<div id="top"></div>
 <h3 align="center">${response.project_title}</h3>
 ## Table of Contents
@@ -56,4 +56,4 @@ ${response.usage}
   <p align="right">(<a href="#top">back to top</a>)</p>`
 };
 
-module.exports = readmeBuilder;
+module.exports = readme;
