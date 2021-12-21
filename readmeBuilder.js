@@ -51,8 +51,7 @@ const readme = (response) => {
 }
     
   ## Questions
-  [https://github.com/${response.githubUsername}](https://github.com/${response.githubUsername})
-  
+  [https://github.com/${response.githubUsername}](https://github.com/${response.githubUsername})<br/>
   [${response.email}](${response.email})
   <p align="right">(<a href="#top">back to top</a>)</p>`
 };
