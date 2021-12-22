@@ -58,6 +58,6 @@ inquirer
   .then((response) => {
     
     fs.writeFile('readme.md', readmeBuilder(response), (err) =>
-        err ? console.error(err) : console.log('Success!')
+        err ? console.error(err) : console.log('Success, your file has been created!')
     )
   });
