@@ -7,11 +7,14 @@ const readme = (response) => {
   * [Installation Instructions](#installation-instructions)
   * [Usage](#usage)
   * [License](#license)
+  * [Contributors][#contributors]
+  * [Testing][testing]
   * [Questions](#questions)
   
   
   ## Description
   ${response.description}
+
   <p align="right">(<a href="#top">back to top</a>)</p>
 
   ## Installation Instructions
@@ -31,7 +34,7 @@ const readme = (response) => {
   ${
     (() => {
         if(response.license == "MIT License") {
-            return `[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)`;
+            return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
         } else if(response.license === "GNU AGPLv3") {
             return `[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)`;
         } else if(response.license === "GNU GPLv3") {
@@ -50,9 +53,22 @@ const readme = (response) => {
     })()
 }
     
+  ## Contributors
+  ${response.contributors}
+
+  <p align="right">(<a href="#top">back to top</a>)</p>
+
+  ## Testing
+  ${response.testing}
+
+  <p align="right">(<a href="#top">back to top</a>)</p>
+
   ## Questions
-  [https://github.com/${response.githubUsername}](https://github.com/${response.githubUsername})<br/>
-  [${response.email}](${response.email})
+
+  Github: [${response.githubUsername}](https://github.com/${response.githubUsername})<br/>
+  
+  Email: [${response.email}](${response.email})
+  
   <p align="right">(<a href="#top">back to top</a>)</p>`
 };
 

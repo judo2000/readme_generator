@@ -24,6 +24,16 @@ inquirer
         name: 'usage',
     },
     {
+      type: 'input',
+      message: 'Please provide contributor information:',
+      name: 'contributors',
+    },
+    {
+      type: 'input',
+      message: 'Please provide testing information:',
+      name: 'testing',
+    },
+    {
         type: 'input',
         message: 'Please enter your Github username:',
         name: 'githubUsername',
