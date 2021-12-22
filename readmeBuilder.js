@@ -7,8 +7,8 @@ const readme = (response) => {
   * [Installation Instructions](#installation-instructions)
   * [Usage](#usage)
   * [License](#license)
-  * [Contributors][#contributors]
-  * [Testing][testing]
+  * [Contributors](#contributors)
+  * [Testing](testing)
   * [Questions](#questions)
   
   
@@ -68,7 +68,7 @@ const readme = (response) => {
   Github: [${response.githubUsername}](https://github.com/${response.githubUsername})<br/>
   
   Email: [${response.email}](${response.email})
-  
+
   <p align="right">(<a href="#top">back to top</a>)</p>`
 };
 

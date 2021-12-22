@@ -6,8 +6,8 @@
   * [Installation Instructions](#installation-instructions)
   * [Usage](#usage)
   * [License](#license)
-  * [Contributors][#contributors]
-  * [Testing][testing]
+  * [Contributors](#contributors)
+  * [Testing](testing)
   * [Questions](#questions)
   
   
